@@ -8,6 +8,7 @@ import { WagmiProvider } from "wagmi";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { DynamicWagmiConnector } from "@dynamic-labs/wagmi-connector";
 import { config } from "@/lib/wagmi";
+import { ZeroDevSmartWalletConnectors } from "@dynamic-labs/ethereum-aa";
 
 
 export default function Providers({ children }: { children: React.ReactNode }) {
@@ -27,7 +28,11 @@ export default function Providers({ children }: { children: React.ReactNode }) {
               // replace with your own environment ID
               process.env.NEXT_PUBLIC_DYNAMIC_ENV_ID ||
               "2762a57b-faa4-41ce-9f16-abff9300e2c9",
-            walletConnectors: [EthereumWalletConnectors, SolanaWalletConnectors],
+            walletConnectors: [
+              EthereumWalletConnectors,
+              SolanaWalletConnectors,
+              ZeroDevSmartWalletConnectors,
+            ],
           }}
         >
         
