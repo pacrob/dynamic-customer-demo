@@ -63,3 +63,15 @@ Thanks again for choosing Dynamic. We can’t wait to see what you build.
 — The Dynamic Engineering Team
 
 ## FAQ
+
+Q: How can I quickly spin up a Dynamic demo app?
+A: Use our [`create-dynamic-app`](https://www.dynamic.xyz/docs/example-apps#create-dynamic-app) tool.
+
+Q: Where can I find other examples of what's possible with Dynamic?
+A: Check out our  [Recipe Guides](https://www.dynamic.xyz/docs/guides/recipes)  and public [Github](https://github.com/orgs/dynamic-labs/repositories) for inspiration.
+
+Q: What's the best way to use AI to work with the Dynamic SDK?
+A: It will depend on the tool you're using, but we've created a [guide](https://www.dynamic.xyz/docs/ai/developing-with-ai) to get you going.
+
+Q: What's the difference between a chain and a network?
+A: A **chain** is the core blockchain protocol, such as Ethereum, Solana, or Bitcoin. A **network** is a specific instance of a chain, like Ethereum Mainnet, Base Sepolia, or Solana Devnet.
