@@ -3,6 +3,35 @@
 
 ## Demo Intro
 
+Hi Jeff,
+
+Here's some info I put together for you to help you understand what you can do with Dynamic.
+
+This is the demo app: https://github.com/pacrob/dynamic-customer-demo
+
+And here's a video walk-through of its use: https://www.loom.com/share/d650708d5cfe4935b7a45b5477c610c6?sid=bdbf3410-6d4d-41a3-9ddd-2c699466325d
+
+In the video, I'll walk you through the log-in process using Dynamic's tooling. You'll see our support for a wide variety of existing wallets as well as a demonstration of how Dynamic's Embedded Wallets work.
+
+In the Developer Dashboard, we'll look at enabling different chains, the additional security options you can provide for your users, and see how you can choose to sponsor your users' gas via our Account Abstraction integrations.
+
+Back in the app, I'll demo 2 different types of transaction. The first is a basic value transfer, sending some test ETH from from address to another. I'll also show how setting up an Account Abstraction provider allows a transaction to be initiated even when the account has no balance.
+
+Here are some links to things I mention in the video:
+
+This is our `create-dynamic-app`tool that I used to create the demo:
+https://www.dynamic.xyz/docs/example-apps
+
+Here's more on Embedded Wallets and Multi-Party Computation:
+https://www.dynamic.xyz/docs/wallets/embedded-wallets/mpc/overview
+
+Here's some more detail on Smart Wallets, aka Account Abstraction
+https://www.dynamic.xyz/docs/smart-wallets/add-smart-wallets
+
+Thanks again for your interest in Dynamic, Jeff! Let me know if there's anything else I can do for you.
+
+-Paul, Customer Success Engineer
+
 ## Technical Welcome Message
 
 Hi Jeff,
