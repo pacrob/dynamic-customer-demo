@@ -24,7 +24,7 @@ https://www.dynamic.xyz/docs/example-apps
 Here's more on Embedded Wallets and Multi-Party Computation:
 https://www.dynamic.xyz/docs/wallets/embedded-wallets/mpc/overview
 
-Here's some more detail on Smart Wallets, aka Account Abstraction
+Here's some more detail on Smart Wallets (Account Abstraction)
 https://www.dynamic.xyz/docs/smart-wallets/add-smart-wallets
 
 Thanks again for your interest in Dynamic, Jeff! Let me know if there's anything else I can do for you.
@@ -45,7 +45,7 @@ First, take a look at our [Quickstart guide](https://www.dynamic.xyz/docs/quicks
 
 ### Try it live
 
-Check out our [demo app](https://demo.dynamic.xyz/)  to see Dynamic in action — connect with email, social, or wallet, play with a multitude of layout options, and explore multi-chain support.  
+Check out our [demo app](https://demo.dynamic.xyz/)to see Dynamic in action — connect with email, social, or wallet, play with a multitude of layout options, and explore multi-chain support.  
 
 ### Go deeper
 
@@ -63,14 +63,34 @@ Thanks again for choosing Dynamic. We can’t wait to see what you build.
 
 ## FAQ
 
-Q: How can I quickly spin up a Dynamic demo app?
-A: Use our [`create-dynamic-app`](https://www.dynamic.xyz/docs/example-apps#create-dynamic-app) tool.
+### How can I quickly spin up a Dynamic demo app?
 
-Q: Where can I find other examples of what's possible with Dynamic?
-A: Check out our  [Recipe Guides](https://www.dynamic.xyz/docs/guides/recipes)  and public [GitHub](https://github.com/orgs/dynamic-labs/repositories) for inspiration.
+Use our [`create-dynamic-app`](https://www.dynamic.xyz/docs/example-apps#create-dynamic-app) tool.
 
-Q: What's the best way to use AI to work with the Dynamic SDK?
+### Where can I find other examples of what's possible with Dynamic?
+
+Check out our  [Recipe Guides](https://www.dynamic.xyz/docs/guides/recipes)  and public [GitHub](https://github.com/orgs/dynamic-labs/repositories) for inspiration.
+
+### What's the best way to use AI to work with the Dynamic SDK?
+
 A: It will depend on the tool you're using, but we've created a [guide](https://www.dynamic.xyz/docs/ai/developing-with-ai) to get you going.
 
-Q: What's the difference between a chain and a network?
-A: A **chain** is the core blockchain protocol, such as Ethereum, Solana, or Bitcoin. A **network** is a specific instance of a chain, like Ethereum Mainnet, Base Sepolia, or Solana Devnet.
+### What's the difference between a chain and a network?
+
+These terms are sometimes used interchangeably, so it can be confusing.
+
+A **chain** refers to the broader blockchain ecosystem, such as Ethereum, Solana, or Bitcoin.
+
+A **network** is a specific instance within a chain, like Ethereum Mainnet, Base, or Solana Devnet.
+
+### How are Dynamic's Embedded Wallets secured?
+
+Our Embedded Wallets are non-custodial and secured using Multi-Party Computation (MPC). This means a user's private key is never stored in a single location. Instead, it's split into multiple shares, making it highly resistant to theft. Read more in our [Embedded Wallet](https://www.dynamic.xyz/docs/wallets/embedded-wallets/mpc/overview) docs.
+
+### How do I enable gasless transactions for my users?
+
+Gasless transactions are enabled in the **Smart Wallet & AA** section of the [Developer Dashboard](https://app.dynamic.xyz/dashboard/smart-wallets). Learn more about how it works and available integrations in our [Smart Accounts (AA)](https://www.dynamic.xyz/docs/smart-wallets/add-smart-wallets) docs.
+
+### Can I customize the look and feel of the Dynamic widget?
+
+Yes, the widget is highly customizable. See what's possible with our [Live Demo](https://demo.dynamic.xyz/) and get started with our [UI Customization](https://www.dynamic.xyz/docs/design-customizations/customizing-ui) docs.
