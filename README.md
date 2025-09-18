@@ -111,7 +111,7 @@ Check out our  [Recipe Guides](https://www.dynamic.xyz/docs/guides/recipes)  and
 
 ### What's the best way to use AI to work with the Dynamic SDK?
 
-A: It will depend on the tool you're using, but we've created a [guide](https://www.dynamic.xyz/docs/ai/developing-with-ai) to get you going.
+It will depend on the tool you're using, but we've created a [guide](https://www.dynamic.xyz/docs/ai/developing-with-ai) to get you going.
 
 ### What's the difference between a chain and a network?
 
